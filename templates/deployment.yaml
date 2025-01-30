@@ -6,7 +6,7 @@ metadata:
         app: nginx
         tier: frontend
 spec:
-    replicas: {{.Values.deploymnet.replicas }}
+    replicas: {{ .Values.deploymnet.replicas }}
     selector:
         matchLabels:
             tier: frontend
